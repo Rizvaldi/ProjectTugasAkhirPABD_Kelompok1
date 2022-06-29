@@ -1,0 +1,16 @@
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\bin\Debug\AplikasiSembakoPABD.exe.config
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\bin\Debug\AplikasiSembakoPABD.exe
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\bin\Debug\AplikasiSembakoPABD.pdb
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.csproj.AssemblyReference.cache
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Form1.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Login.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Properties.Resources.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.csproj.GenerateResource.cache
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.csproj.CoreCompileInputs.cache
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.exe
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.pdb
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Menu.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Penjual.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Barang.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Pembeli.resources
+C:\Users\62813\source\repos\AplikasiSembakoPABD\AplikasiSembakoPABD\obj\Debug\AplikasiSembakoPABD.Transaksi.resources

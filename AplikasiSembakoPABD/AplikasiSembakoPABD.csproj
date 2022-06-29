@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92C352DB-395F-48F8-A5A8-8C936AC68663}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AplikasiSembakoPABD</RootNamespace>
+    <AssemblyName>AplikasiSembakoPABD</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barang.Designer.cs">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datapenjualanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datapenjualanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembeli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembeli.Designer.cs">
+      <DependentUpon>Pembeli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penjual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penjual.Designer.cs">
+      <DependentUpon>Penjual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sembakoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sembakoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SembakoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SembakoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SembakoDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SembakoDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sembakoDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sembakoDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi.Designer.cs">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Barang.resx">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembeli.resx">
+      <DependentUpon>Pembeli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penjual.resx">
+      <DependentUpon>Penjual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Transaksi.resx">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="datapenjualanDataSet.xsc">
+      <DependentUpon>datapenjualanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datapenjualanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datapenjualanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datapenjualanDataSet.xss">
+      <DependentUpon>datapenjualanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="sembakoDataSet.xsc">
+      <DependentUpon>sembakoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sembakoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sembakoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sembakoDataSet.xss">
+      <DependentUpon>sembakoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SembakoDataSet1.xsc">
+      <DependentUpon>SembakoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SembakoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SembakoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SembakoDataSet1.xss">
+      <DependentUpon>SembakoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SembakoDataSet11.xsc">
+      <DependentUpon>SembakoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="SembakoDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SembakoDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SembakoDataSet11.xss">
+      <DependentUpon>SembakoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="sembakoDataSet12.xsc">
+      <DependentUpon>sembakoDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="sembakoDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sembakoDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sembakoDataSet12.xss">
+      <DependentUpon>sembakoDataSet12.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
